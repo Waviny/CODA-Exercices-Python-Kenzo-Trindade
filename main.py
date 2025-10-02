@@ -116,7 +116,17 @@ def exercice20():
     age = int(input("Quel est votre âge : "))
     print("Bonjour, ", name, " comment allez  vous aujourd'hui ? Vous avez toujours ", age, " ? ")
 
-
+# Niveau Découverte 21
+def exercice21():
+    nombre = int(input("Veuillez entrer votre nombre : "))
+    if nombre == 0:
+        print("Votre nombre est Nul")
+    elif nombre > 0:
+        print("Votre nombre est positif")
+    elif nombre < 0:
+        print("Votre nombre est négatif")
+    else:
+        print("Erreur, veuillez entrer un nombre valide")
 
 
 
@@ -173,6 +183,8 @@ def main():
         exercice19()
     elif choix == "20":
         exercice20()
+    elif choix == "21":
+        exercice21()
     else:
         print("Exercice non reconnu.")
 
