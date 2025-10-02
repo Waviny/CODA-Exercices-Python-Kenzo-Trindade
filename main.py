@@ -49,6 +49,12 @@ def exercice9():
     c = a // b
     print("Le résultat est : ", c)
 
+# Niveau Découverte 10
+def exercice10():
+    a = input("Veuillez entrer un premier chiffre : ")
+    b = input("Entrez un deuxième chiffre : ")
+    c = a ** b
+    print("Le résultat est : ", c)
 
 
 
@@ -83,6 +89,8 @@ def main():
         exercice8()
     elif choix == "9":
         exercice9()
+    elif choix == "10":
+        exercice10()
     else:
         print("Exercice non reconnu.")
 
