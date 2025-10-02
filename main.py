@@ -78,6 +78,11 @@ def exercice14():
     for i in range(1, 6):
         print(2*i)
 
+# Niveau Découverte 15
+def exercice15():
+    cote = int(input("Veuillez entrer la longueur de votre côté : "))
+    perimetre = cote * 4
+    print("La périmètre de votre carré de longueur", cote, "est de ", perimetre)
 
 
 
@@ -117,6 +122,8 @@ def main():
         exercice13()
     elif choix == "14":
         exercice14()
+    elif choix == "15":
+        exercice15()
     else:
         print("Exercice non reconnu.")
 
