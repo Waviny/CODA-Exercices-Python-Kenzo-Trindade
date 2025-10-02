@@ -169,6 +169,16 @@ def exercice25():
     else:
         print("Veuillez entrer des nombres valides")
 
+# Niveau Basique 26
+def exercice26():
+    nombre = int(input("Veuillez entrer votre nombre : "))
+    divisible = nombre % 5
+    if divisible == 0:
+        print("Le nombre ", nombre, " est divisible par 5")
+    elif divisible != 0:
+        print("Le nombre ", nombre, " n'est pas divisble par 5")
+    else:
+        print("Veuillez entrer un nombre valide")
 
 
 
@@ -226,6 +236,8 @@ def main():
         exercice24()
     elif choix == "25":
         exercice25()
+    elif choix == "26":
+        exercice26()
     else:
         print("Exercice non reconnu.")
 
