@@ -90,7 +90,11 @@ def exercice16():
     air = cote ** 2
     print("L'air de votre carré de longueur", cote, "est de ", air)
 
-
+# Niveau Découverte 17
+def exercice17():
+    nombre = int(input("Veuillez entrer votre prix en Euros : "))
+    nombre_dollars = nombre * 1.1
+    print("Votre prix", nombre, "en euros, fait ", nombre_dollars, "en dollars !")
 
 
 
@@ -130,6 +134,8 @@ def main():
         exercice15()
     elif choix == "16":
         exercice16()
+    elif choix == "17":
+        exercice17()
     else:
         print("Exercice non reconnu.")
 
