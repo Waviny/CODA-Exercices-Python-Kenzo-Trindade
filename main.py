@@ -9,7 +9,7 @@ def exercice2():
 # Niveau Découverte 3
 def exercice3():
     name = input("Quel est ton prénom")
-    print("Bonjour", name)
+    print("Bonjour", name, " ! ")
 
 # Niveau Découverte 4
 def exercice4():
@@ -19,48 +19,47 @@ def exercice4():
 def exercice5():
     annee = int(input("Quelle est votre année de naissance : "))
     age = 2025 - annee
-    print(age)
+    print("Vous avez environ ", age, " ans")
 
 # Niveau Découverte 6
 def exercice6():
     a = int(input("Veuillez entrer un premier chiffre : "))
     b = int(input("Entrez un deuxième chiffre : "))
     c = a + b
-    print("Le résultat est : ", c)
+    print(a, " + ", b, " = ", c)
 
 # Niveau Découverte 7
 def exercice7():
     a = int(input("Veuillez entrer un premier chiffre : "))
     b = int(input("Entrez un deuxième chiffre : "))
     c = a - b
-    print("Le résultat est : ", c)
+    print(a, " - ", b, " = ", c)
 
 # Niveau Découverte 8
 def exercice8():
     a = int(input("Veuillez entrer un premier chiffre : "))
     b = int(input("Entrez un deuxième chiffre : "))
     c = a * b
-    print("Le résultat est : ", c)
+    print(a, " x ", b, " = ", c)
 
 # Niveau Découverte 9
 def exercice9():
     a = int(input("Veuillez entrer un premier chiffre : "))
     b = int(input("Entrez un deuxième chiffre : "))
     c = a // b
-    print("Le résultat est : ", c)
+    print(a, " / ", b, " = ", c)
 
 # Niveau Découverte 10
 def exercice10():
-    a = int(input("Veuillez entrer un premier chiffre : "))
-    b = int(input("Entrez un deuxième chiffre : "))
-    c = a ** b
-    print("Le résultat est : ", c)
+    nombre = int(input("Veuillez entrer un premier chiffre : "))
+    resultat = nombre ** 2
+    print(nombre, " au carré = ", resultat)
 
 # Niveau Découverte 11
 def exercice11():
     nombre = int(input("Quel est votre nombre"))
     moitie = nombre / 2
-    print("La moitié de votre nombre", moitie)
+    print("Le moitié de : ", nombre, " est ", moitie)
 
 # Niveau Découverte 12
 def exercice12():
@@ -76,7 +75,7 @@ def exercice13():
 # Niveau Découverte 14
 def exercice14():
     for i in range(1, 6):
-        print(2*i)
+        print("2 x ", i, " = ", 2*i)
 
 # Niveau Découverte 15
 def exercice15():
@@ -194,7 +193,7 @@ def main():
     elif choix == "21":
         exercice21()
     elif choix == "22":
-        exercice21()
+        exercice22()
     else:
         print("Exercice non reconnu.")
 
