@@ -239,7 +239,13 @@ def exercice32():
         resultat += i
         print(resultat)
         
-
+# Niveau Basique 33
+def exercice33():
+    table = int(input("Veuillez entrer la table que vous désirez : "))
+    resultat = 0
+    for i in range(1, 11):
+        resultat = i*table
+        print(table, " x ", i, " = ", resultat)
 
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -307,6 +313,8 @@ def main():
         exercice31()
     elif choix == "32":
         exercice32()
+    elif choix == "33":
+        exercice33()
     else:
         print("Exercice non reconnu.")
 
