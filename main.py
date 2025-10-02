@@ -270,7 +270,17 @@ def exercice36():
     for i in range (nombre_de_fois):
         print(mot)
 
-
+# Niveau Basique 37
+def exercice37():
+    taille = int(input("Chiffre : "))
+    resultat = taille - (taille - 1)
+    wi = taille - resultat
+    for i in range(0, taille):
+        print(" "*wi, "*"*resultat, " "* wi)
+        wi -= 1
+        resultat += 2
+            
+        
 
 
 
@@ -359,6 +369,8 @@ def main():
         exercice35()
     elif choix == "36":
         exercice36()
+    elif choix == "37":
+        exercice37()
     else:
         print("Exercice non reconnu.")
 
