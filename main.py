@@ -17,54 +17,54 @@ def exercice4():
 
 # Niveau Découverte 5
 def exercice5():
-    annee = input("Quelle est votre année de naissance : ")
+    annee = in(input("Quelle est votre année de naissance : "))
     age = 2025 - annee
     print(age)
 
 # Niveau Découverte 6
 def exercice6():
-    a = input("Veuillez entrer un premier chiffre : ")
-    b = input("Entrez un deuxième chiffre : ")
+    a = int(input("Veuillez entrer un premier chiffre : "))
+    b = int(input("Entrez un deuxième chiffre : "))
     c = a + b
     print("Le résultat est : ", c)
 
 # Niveau Découverte 7
 def exercice7():
-    a = input("Veuillez entrer un premier chiffre : ")
-    b = input("Entrez un deuxième chiffre : ")
+    a = int(input("Veuillez entrer un premier chiffre : "))
+    b = int(input("Entrez un deuxième chiffre : "))
     c = a - b
     print("Le résultat est : ", c)
 
 # Niveau Découverte 8
 def exercice8():
-    a = input("Veuillez entrer un premier chiffre : ")
-    b = input("Entrez un deuxième chiffre : ")
+    a = int(input("Veuillez entrer un premier chiffre : "))
+    b = int(input("Entrez un deuxième chiffre : "))
     c = a * b
     print("Le résultat est : ", c)
 
 # Niveau Découverte 9
 def exercice9():
-    a = input("Veuillez entrer un premier chiffre : ")
-    b = input("Entrez un deuxième chiffre : ")
+    a = int(input("Veuillez entrer un premier chiffre : "))
+    b = int(input("Entrez un deuxième chiffre : "))
     c = a // b
     print("Le résultat est : ", c)
 
 # Niveau Découverte 10
 def exercice10():
-    a = input("Veuillez entrer un premier chiffre : ")
-    b = input("Entrez un deuxième chiffre : ")
+    a = int(input("Veuillez entrer un premier chiffre : "))
+    b = int(input("Entrez un deuxième chiffre : "))
     c = a ** b
     print("Le résultat est : ", c)
 
 # Niveau Découverte 11
 def exercice11():
-    nombre = input("Quel est votre nombre")
+    nombre = int(input("Quel est votre nombre"))
     moitie = nombre // 2
     print("La moitié de votre nombre", moitie)
 
 # Niveau Découverte 12
 def exercice12():
-    message = input("Veuillez entrer votre message : ")
+    message = int(input("Veuillez entrer votre message : "))
     for i in range(1, 6):
         print(message)
 
