@@ -204,6 +204,20 @@ def exercice28():
     else:
         print("Veuillez entrer une température valide")
 
+# Niveau Basique 29
+def exercice29():
+    note = int(input("Veuillez entrer votre note du bac : "))
+    if note <= 8:
+        print("Recalé")
+    elif 8 < note <= 11:
+        print("Passable")
+    elif 11 < note <= 14:
+        print("Bien")
+    elif 14 < note:
+        print("Très bien")
+    else:
+        print("Veuillez entrer une note valide")
+
 
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -263,6 +277,8 @@ def main():
         exercice27()
     elif choix == "28":
         exercice28()
+    elif choix == "29":
+        exercice29()
     else:
         print("Exercice non reconnu.")
 
