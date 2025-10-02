@@ -17,7 +17,7 @@ def exercice4():
 
 # Niveau Découverte 5
 def exercice5():
-    annee = in(input("Quelle est votre année de naissance : "))
+    annee = int(input("Quelle est votre année de naissance : "))
     age = 2025 - annee
     print(age)
 
@@ -59,7 +59,7 @@ def exercice10():
 # Niveau Découverte 11
 def exercice11():
     nombre = int(input("Quel est votre nombre"))
-    moitie = nombre // 2
+    moitie = nombre / 2
     print("La moitié de votre nombre", moitie)
 
 # Niveau Découverte 12
@@ -84,7 +84,11 @@ def exercice15():
     perimetre = cote * 4
     print("La périmètre de votre carré de longueur", cote, "est de ", perimetre)
 
-
+# Niveau Découverte 16
+def exercice16():
+    cote = int(input("Veuillez entrer la longueur de votre côté : "))
+    air = cote ** 2
+    print("L'air de votre carré de longueur", cote, "est de ", air)
 
 
 
@@ -124,6 +128,8 @@ def main():
         exercice14()
     elif choix == "15":
         exercice15()
+    elif choix == "16":
+        exercice16()
     else:
         print("Exercice non reconnu.")
 
