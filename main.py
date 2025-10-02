@@ -103,6 +103,12 @@ def exercice18():
     minute_resultat = minute_donnee * minute_en_seconde
     print("En seconde, ", minute_donnee, "vaut ", minute_resultat, " secondes !")
 
+# Niveau Découverte 19
+def exercice19():
+    TVA = 1.2
+    prix_HT = int(input("Veuillez saisir votre prix horss taxe : "))
+    prix_TTC = prix_HT * TVA
+    print("Votre prix hors taxe, ", prix_HT, "vaudra ", prix_TTC, "après TVA")
 
 
 
@@ -158,6 +164,8 @@ def main():
         exercice17()
     elif choix == "18":
         exercice18()
+    elif choix == "19":
+        exercice19()
     else:
         print("Exercice non reconnu.")
 
