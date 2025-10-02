@@ -11,3 +11,7 @@ def main():
 
 if __name__ == "__main__":  
     main()
+
+# Niveau Découverte 1
+
+print("Bonjour le monde !")
