@@ -263,6 +263,28 @@ def exercice35():
         if carre_parfait < n:
             print(carre_parfait)
 
+# Niveau Basique 36
+def exercice36():
+    mot = input("Veuillez netrer un mot : ")
+    nombre_de_fois = int(input("Veuillez entrer un nombre de fois que le mot sera répété : "))
+    for i in range (nombre_de_fois):
+        print(mot)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
     if choix == "1":
@@ -335,6 +357,8 @@ def main():
         exercice34()
     elif choix == "35":
         exercice35()
+    elif choix == "36":
+        exercice36()
     else:
         print("Exercice non reconnu.")
 
