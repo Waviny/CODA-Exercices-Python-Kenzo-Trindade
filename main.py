@@ -56,6 +56,12 @@ def exercice10():
     c = a ** b
     print("Le résultat est : ", c)
 
+# Niveau Découverte 11
+def exercice11():
+    nombre = input("Quel est votre nombre")
+    moitie = nombre // 2
+    print("La moitié de votre nombre", moitie)
+
 
 
 
@@ -91,6 +97,8 @@ def main():
         exercice9()
     elif choix == "10":
         exercice10()
+    elif choix == "11":
+        exercice11()
     else:
         print("Exercice non reconnu.")
 
