@@ -62,7 +62,11 @@ def exercice11():
     moitie = nombre // 2
     print("La moitié de votre nombre", moitie)
 
-
+# Niveau Découverte 12
+def exercice12():
+    message = input("Veuillez entrer votre message : ")
+    for i in range(1, 6):
+        print(message)
 
 
 
@@ -99,6 +103,8 @@ def main():
         exercice10()
     elif choix == "11":
         exercice11()
+    elif choix == "12":
+        exercice12()
     else:
         print("Exercice non reconnu.")
 
