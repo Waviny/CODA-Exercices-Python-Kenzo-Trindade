@@ -391,7 +391,7 @@ def exercice45():
 def exercice46():
     list = []
     nb = int(input("Combien voulez vous de nombres ? "))
-    find = int(input("Veuillez saisir le nomnbre chercher : "))
+    find = int(input("Veuillez saisir le nombre chercher : "))
     resultat = 0
     for i in range(1, nb+1):
         add = input("Veuillez saisir les nombres : ")
@@ -399,9 +399,21 @@ def exercice46():
     for j in range(0, len(list)):
         if find == int(list[j]):
             print("Trouvé, à la position : ", j)
-        else:
-            print("Non trouvé dans la liste")
-
+    
+# Niveau Basique 47
+def exercice47():
+    list = []
+    nb = int(input("Combien voulez vous de nombres ? "))
+    find = int(input("Veuillez saisir le nombre chercher : "))
+    compteur = 0
+    resultat = 0
+    for i in range(1, nb+1):
+        add = input("Veuillez saisir les nombres : ")
+        list.append(add)
+    for j in range(0, len(list)):
+        if find == int(list[j]):
+            compteur += 1
+    print("Votre nombre : ", find, " apparraît : ", compteur, " fois ")
 
 
 
@@ -512,6 +524,8 @@ def main():
         exercice45()
     elif choix == "46":
         exercice46()
+    elif choix == "47":
+        exercice47()
     else:
         print("Exercice non reconnu.")
 
