@@ -180,7 +180,17 @@ def exercice26():
     else:
         print("Veuillez entrer un nombre valide")
 
-
+# Niveau Basique 27
+def exercice27():
+    age = int(input("Veuillez entrer votre âge : "))
+    if age  < 12:
+        print("Enfant")
+    elif 12 < age < 17:
+        print("Ado")
+    elif age >= 18:
+        print("Adulte")
+    else:
+        print("Veuillez entrer un âge valide")
 
 
 
@@ -238,6 +248,8 @@ def main():
         exercice25()
     elif choix == "26":
         exercice26()
+    elif choix == "27":
+        exercice27()
     else:
         print("Exercice non reconnu.")
 
