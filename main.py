@@ -192,6 +192,17 @@ def exercice27():
     else:
         print("Veuillez entrer un âge valide")
 
+# Niveau Basique 28
+def exercice28():
+    temperature = int(input("Veuillez entrer la température : "))
+    if temperature < -5:
+        print("Glace")
+    elif -5 < temperature < 105:
+        print("Eau liquide")
+    elif temperature > 105:
+        print("Vapeur")
+    else:
+        print("Veuillez entrer une température valide")
 
 
 def main():
@@ -250,6 +261,8 @@ def main():
         exercice26()
     elif choix == "27":
         exercice27()
+    elif choix == "28":
+        exercice28()
     else:
         print("Exercice non reconnu.")
 
