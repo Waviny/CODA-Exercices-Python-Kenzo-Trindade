@@ -147,7 +147,16 @@ def exercice23():
     else:
         print("Erreur, veuillez entrer un nombre valide")
 
-
+# Niveau Basique 24
+def exercice24():
+    nombreA = int(input("Veuillez entrer votre premier nombre : "))
+    nombreB = int(input("Veuillez entrer votre deuxième nombre"))
+    if nombreA > nombreB:
+        print("Votre premier nombre, ", nombreA, " est plus grand que votre deuxième nombre, ", nombreB)
+    elif nombreB > nombreA:
+        print("Votre deuxième nombre, ", nombreB, " est plus grand que votre premier nombre, ", nombreA)
+    else:
+        print("Nombres égaux")
 
 
 
@@ -204,6 +213,8 @@ def main():
         exercice22()
     elif choix == "23":
         exercice23()
+    elif choix == "24":
+        exercice24()
     else:
         print("Exercice non reconnu.")
 
