@@ -375,6 +375,37 @@ def exercice44():
         res = lettre + res
     print(res)
 
+# Niveau Basique 45
+def exercice45():
+    list = []
+    nb = int(input("Combien voulez vous de nombres ? "))
+    resultat = 0
+    for i in range(1, nb+1):
+        add = input("Veuillez saisir les nombres : ")
+        list.append(add)
+    for j in range(0, len(list)):
+        resultat = resultat + int(list[j])
+    print(resultat)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -466,6 +497,8 @@ def main():
         exercice43()
     elif choix == "44":
         exercice44()
+    elif choix == "45":
+        exercice45()
     else:
         print("Exercice non reconnu.")
 
