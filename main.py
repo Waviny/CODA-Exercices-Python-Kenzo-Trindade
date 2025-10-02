@@ -109,13 +109,13 @@ def exercice19():
     prix_TTC = prix_HT * TVA
     print("Votre prix hors taxe, ", prix_HT, "vaudra ", prix_TTC, "après TVA")
 
-# Niveau Découverte 20
+# Niveau Basique 20
 def exercice20():
     name = input("Quel est votre nom : ")
     age = int(input("Quel est votre âge : "))
     print("Bonjour, ", name, " comment allez  vous aujourd'hui ? Vous avez toujours ", age, " ? ")
 
-# Niveau Découverte 21
+# Niveau Basique 21
 def exercice21():
     nombre = int(input("Veuillez entrer votre nombre : "))
     if nombre == 0:
@@ -127,7 +127,7 @@ def exercice21():
     else:
         print("Erreur, veuillez entrer un nombre valide")
 
-# Niveau Découverte 22
+# Niveau Basique 22
 def exercice22():
     age = int(input("Veuillez entrer votre âge : "))
     if age >= 18:
@@ -137,7 +137,15 @@ def exercice22():
     else:
         print("Erreur, veuillez entrer un nombre valide")
 
-
+# Niveau Basique 23
+def exercice23():
+    note = int(input("Veuillez entre votre note : "))
+    if note >= 10:
+        print("Validé")
+    elif note < 10:
+        print("Non validé")
+    else:
+        print("Erreur, veuillez entrer un nombre valide")
 
 
 
@@ -194,6 +202,8 @@ def main():
         exercice21()
     elif choix == "22":
         exercice22()
+    elif choix == "23":
+        exercice23()
     else:
         print("Exercice non reconnu.")
 
