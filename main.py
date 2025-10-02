@@ -367,6 +367,13 @@ def exercice43():
                 compteur += 1
     print(compteur)
 
+# Niveau Basique 44
+def exercice44():
+    mot = input("Veuillez saisir un mot : ")
+    res = ""
+    for lettre in mot :
+        res = lettre + res
+    print(res)
 
 
 def main():
@@ -457,6 +464,8 @@ def main():
         exercice42()
     elif choix == "43":
         exercice43()
+    elif choix == "44":
+        exercice44()
     else:
         print("Exercice non reconnu.")
 
