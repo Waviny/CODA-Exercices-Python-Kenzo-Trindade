@@ -230,8 +230,15 @@ def exercice31():
     for i in range(n+1):
         print(n)
         n -= 1
-        
 
+# Niveau Basique 32
+def exercice32():
+    resultat = 0
+    n = int(input("Veuillez entrer un nombre n : "))
+    for i in range(1, n+1):
+        resultat += i
+        print(resultat)
+        
 
 
 def main():
@@ -298,6 +305,8 @@ def main():
         exercice30()
     elif choix == "31":
         exercice31()
+    elif choix == "32":
+        exercice32()
     else:
         print("Exercice non reconnu.")
 
