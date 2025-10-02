@@ -96,6 +96,26 @@ def exercice17():
     nombre_dollars = nombre * 1.1
     print("Votre prix", nombre, "en euros, fait ", nombre_dollars, "en dollars !")
 
+# Niveau Découverte 18
+def exercice18():
+    minute_en_seconde = 60
+    minute_donnee = int(input("Veuillez saisir votre nombre de minutes : "))
+    minute_resultat = minute_donnee * minute_en_seconde
+    print("En seconde, ", minute_donnee, "vaut ", minute_resultat, " secondes !")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -136,6 +156,8 @@ def main():
         exercice16()
     elif choix == "17":
         exercice17()
+    elif choix == "18":
+        exercice18()
     else:
         print("Exercice non reconnu.")
 
