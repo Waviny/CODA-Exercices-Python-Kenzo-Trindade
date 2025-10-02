@@ -21,6 +21,13 @@ def exercice5():
     age = 2025 - annee
     print(age)
 
+# Niveau Découverte 6
+def exercice6():
+    a = input("Veuillez entrer un premier chiffre : ")
+    b = input("Entrez un deuxième chiffre : ")
+    c = a + b
+    print("Le résultat est : ", c)
+
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
     if choix == "1":
@@ -33,6 +40,8 @@ def main():
         exercice4()
     elif choix == "5":
         exercice5()
+    elif choix == "6":
+        exercice6()
     else:
         print("Exercice non reconnu.")
 
