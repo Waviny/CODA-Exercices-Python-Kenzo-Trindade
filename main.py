@@ -280,8 +280,26 @@ def exercice37():
         wi -= 1
         resultat += 2
             
+# Niveau Basique 37
+def exercice38():
+    numA = int(input("Numéro A : "))
+    numB = int(input("Numéro B : "))
+    print("1 - Addition\n" \
+    "2 - Soustraction\n" \
+    "3 - Multiplication\n" \
+    "4 - Division")
+    chiffre = input("Veuillez choisir une opération : ")
+    if chiffre == "1":
+        print(numA + numB)
+    elif chiffre == "2":
+        print(numA - numB)
+    elif chiffre == "3":
+        print(numA * numB)
+    elif chiffre == "4":
+        print(numA / numB)
+    else:
+        print("Veuillez entrer une nombre valide")
         
-
 
 
 
@@ -371,6 +389,8 @@ def main():
         exercice36()
     elif choix == "37":
         exercice37()
+    elif choix == "38":
+        exercice38()
     else:
         print("Exercice non reconnu.")
 
