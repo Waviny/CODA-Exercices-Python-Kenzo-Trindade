@@ -35,6 +35,9 @@ def exercice7():
     c = a - b
     print("Le résultat est : ", c)
 
+# Niveau Découverte 7
+def exercice8():
+
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
     if choix == "1":
@@ -49,6 +52,10 @@ def main():
         exercice5()
     elif choix == "6":
         exercice6()
+    elif choix == "7":
+        exercice7()
+    elif choix == "8":
+        exercice8()
     else:
         print("Exercice non reconnu.")
 
