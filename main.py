@@ -1,3 +1,5 @@
+from random import randint
+
 def exercice1():
     print("Exercice 1 : Bonjour le monde !")
     print("Hello World !")
@@ -280,7 +282,7 @@ def exercice37():
         wi -= 1
         resultat += 2
             
-# Niveau Basique 37
+# Niveau Basique 38
 def exercice38():
     numA = int(input("Numéro A : "))
     numB = int(input("Numéro B : "))
@@ -300,6 +302,22 @@ def exercice38():
     else:
         print("Veuillez entrer une nombre valide")
         
+# Niveau Basique 39
+def exercice39():
+    num = randint(1, 100)
+    message = input("Veuillez entrer une réponse ( pair / impair )")
+    if message == "pair":
+        if num % 2 == 0:
+            print("gagné le nombre était : ", num)
+        else:
+            print("perdu le nombre était : ", num)
+    elif message == "impair":
+        if num % 2 != 0:
+            print("gagné le nombre était : ", num)
+        else:
+            print("perdu le nombre était : ", num)
+    else:
+        print("Veuillez saisir pair ou impair")
 
 
 
@@ -391,6 +409,8 @@ def main():
         exercice37()
     elif choix == "38":
         exercice38()
+    elif choix == "39":
+        exercice39()
     else:
         print("Exercice non reconnu.")
 
