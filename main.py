@@ -28,6 +28,13 @@ def exercice6():
     c = a + b
     print("Le résultat est : ", c)
 
+# Niveau Découverte 7
+def exercice7():
+    a = input("Veuillez entrer un premier chiffre : ")
+    b = input("Entrez un deuxième chiffre : ")
+    c = a - b
+    print("Le résultat est : ", c)
+
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
     if choix == "1":
