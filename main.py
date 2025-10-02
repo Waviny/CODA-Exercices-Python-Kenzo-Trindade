@@ -327,7 +327,18 @@ def exercice40():
     else:
         print("Mot de passe trop court ( + 6 caractères )")
 
-
+# Niveau Basique 41
+def exercice41():
+    notes = []
+    resultat = 0
+    n = int(input("Combien de notes avez vous ?"))
+    for i in range(1, n+1):
+        note = int(input("Veuillez saisir vos notes : "))
+        notes.append(note)
+    for j in range(0, len(notes)):
+        resultat = resultat + notes[j]
+    resultat = resultat / 5
+    print("Moyennes des notes : ", resultat)
 
 
 
@@ -419,6 +430,8 @@ def main():
         exercice39()
     elif choix == "40":
         exercice40()
+    elif choix == "41":
+        exercice41()
     else:
         print("Exercice non reconnu.")
 
