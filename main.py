@@ -415,7 +415,14 @@ def exercice47():
             compteur += 1
     print("Votre nombre : ", find, " apparraît : ", compteur, " fois ")
 
-
+# Niveau Basique 48
+def exercice48():
+    nombre = int(input("Veuillez saisir un nombre : "))
+    diviseurs = []
+    for i in range(1, nombre+1):
+        if nombre % i == 0:
+            diviseurs.append(i)
+    print("Les diviseurs de ce nombre sont : ", diviseurs)
 
 
 
@@ -526,6 +533,8 @@ def main():
         exercice46()
     elif choix == "47":
         exercice47()
+    elif choix == "48":
+        exercice48()
     else:
         print("Exercice non reconnu.")
 
