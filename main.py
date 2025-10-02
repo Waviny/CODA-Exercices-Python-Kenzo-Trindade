@@ -15,3 +15,8 @@ if __name__ == "__main__":
 # Niveau Découverte 1
 
 print("Bonjour le monde !")
+
+# Niveau Découverte 2
+
+name = input("Quel est ton prénom")
+print("Bonjour", name)
