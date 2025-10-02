@@ -319,7 +319,13 @@ def exercice39():
     else:
         print("Veuillez saisir pair ou impair")
 
-
+# Niveau Basique 40
+def exercice40():
+    mdp = input("Veuillez saisir votre mot de passe : ")
+    if len(mdp) > 6:
+        print("Le mot de passe fait plus de 6 caractères")
+    else:
+        print("Mot de passe trop court ( + 6 caractères )")
 
 
 
@@ -411,6 +417,8 @@ def main():
         exercice38()
     elif choix == "39":
         exercice39()
+    elif choix == "40":
+        exercice40()
     else:
         print("Exercice non reconnu.")
 
