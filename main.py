@@ -110,6 +110,11 @@ def exercice19():
     prix_TTC = prix_HT * TVA
     print("Votre prix hors taxe, ", prix_HT, "vaudra ", prix_TTC, "après TVA")
 
+# Niveau Découverte 20
+def exercice20():
+    name = input("Quel est votre nom : ")
+    age = int(input("Quel est votre âge : "))
+    print("Bonjour, ", name, " comment allez  vous aujourd'hui ? Vous avez toujours ", age, " ? ")
 
 
 
@@ -166,6 +171,8 @@ def main():
         exercice18()
     elif choix == "19":
         exercice19()
+    elif choix == "20":
+        exercice20()
     else:
         print("Exercice non reconnu.")
 
