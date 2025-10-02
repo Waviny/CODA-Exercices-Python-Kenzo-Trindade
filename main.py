@@ -356,9 +356,16 @@ def exercice42():
             vmax = list[j]
     print("Le nombre le plus grand est : ", vmax, " et le plus petit est : ", vmin)
 
-
-
-
+# Niveau Basique 43
+def exercice43():
+    compteur = 0
+    mot = input("Veuillez saisir un mot : ")
+    voyelles = ["a", "e", "i", "o", "u", "y"]
+    for lettre in mot :
+        for i in range(1, len(voyelles)):
+            if lettre == voyelles[i]:
+                compteur += 1
+    print(compteur)
 
 
 
@@ -448,6 +455,8 @@ def main():
         exercice41()
     elif choix == "42":
         exercice42()
+    elif choix == "43":
+        exercice43()
     else:
         print("Exercice non reconnu.")
 
