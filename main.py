@@ -337,10 +337,24 @@ def exercice41():
         notes.append(note)
     for j in range(0, len(notes)):
         resultat = resultat + notes[j]
-    resultat = resultat / 5
+    resultat = resultat / n
     print("Moyennes des notes : ", resultat)
 
-
+# Niveau Basique 42
+def exercice42():
+    n = int(input("Combien de nombres voulez vous ? "))
+    list = []
+    for i in range(1, n+1):
+        v = int(input("Veuillez saisir les nombres : "))
+        list.append(v)
+    for j in range(1, len(list)):
+        vmin = list[0]
+        vmax = list[0]
+        if list[j] < vmin:
+            vmin = list[j]
+        if list[j] > vmax:
+            vmax = list[j]
+    print("Le nombre le plus grand est : ", vmax, " et le plus petit est : ", vmin)
 
 
 
@@ -432,6 +446,8 @@ def main():
         exercice40()
     elif choix == "41":
         exercice41()
+    elif choix == "42":
+        exercice42()
     else:
         print("Exercice non reconnu.")
 
