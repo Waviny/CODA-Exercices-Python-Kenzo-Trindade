@@ -523,6 +523,32 @@ def exercice56():
         list.append(n)
     print(list)
 
+# Niveau Basique 57
+def exercice57():
+    phrase = input("Veuillez saisir une phrase : ")
+    vcomp = 0
+    mot_long = ""
+    compteur = 0
+    res = ""
+    
+    for c in phrase:
+        if c == " ":
+            if compteur > vcomp:
+                vcomp = compteur
+                mot_long = res
+            res = ""
+            compteur = 0
+        else:
+            compteur += 1
+            res += c
+    
+    if compteur > vcomp:
+        vcomp = compteur
+        mot_long = res
+
+    print(vcomp, mot_long)
+
+
 
 
 
@@ -644,6 +670,8 @@ def main():
         exercice55()
     elif choix == "56":
         exercice56()
+    elif choix == "57":
+        exercice57()
     else:
         print("Exercice non reconnu.")
 
