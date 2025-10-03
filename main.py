@@ -483,6 +483,25 @@ carre1 = [
     [4, 3, 8]
 ]
 
+# Niveau Basique 53
+def exercice53():
+    N = int(input("veuillez entrer un nombre : "))
+    print(bin(N)[2:])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -590,8 +609,11 @@ def main():
         exercice51()
     elif choix == "52":
         exercice52(carre1)
+    elif choix == "53":
+        exercice53()
     else:
         print("Exercice non reconnu.")
+
 
 if __name__ == "__main__":  
     main()
