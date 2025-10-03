@@ -424,12 +424,17 @@ def exercice48():
             diviseurs.append(i)
     print("Les diviseurs de ce nombre sont : ", diviseurs)
 
-
-
-
-
-
-
+# Niveau Basique 49
+def exercice49():
+    list = []
+    nombre = int(input("Veuillez saisir un nombre : "))
+    for i in range(1, nombre+1):
+        if nombre % i == 0:
+            list.append(i)
+    if len(list) == 2:
+        print("Le nombre est premier")
+    else:
+        print("Le nombre n'est pas premier")
 
 
 
@@ -535,6 +540,8 @@ def main():
         exercice47()
     elif choix == "48":
         exercice48()
+    elif choix == "49":
+        exercice49()
     else:
         print("Exercice non reconnu.")
 
