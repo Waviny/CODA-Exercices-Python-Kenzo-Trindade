@@ -569,6 +569,13 @@ def exercice59():
             list.append(i)
     print(list[-1])
 
+# Niveau Basique 60
+def exercice60():
+    long = int(input("Veuillez saisir la longueur : "))
+    larg = int(input("Veuillez saisir la largeur : "))
+    air = long - 2
+    for i in range(1, larg+1):
+        print("*"*long, " "*air)
 
 
 
@@ -695,6 +702,8 @@ def main():
         exercice58()
     elif choix == "59":
         exercice59()
+    elif choix == "60":
+        exercice60()
     else:
         print("Exercice non reconnu.")
 
