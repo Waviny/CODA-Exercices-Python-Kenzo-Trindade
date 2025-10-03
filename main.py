@@ -560,6 +560,14 @@ def exercice58():
     else:
         print("Nombre non Armstrong")
         
+# Niveau Basique 59
+def exercice59():
+    list = []
+    n = int(input("Veuillez entrer un nombre : "))
+    for i in range(1, n):
+        if n % i == 0:
+            list.append(i)
+    print(list[-1])
 
 
 
@@ -685,6 +693,8 @@ def main():
         exercice57()
     elif choix == "58":
         exercice58()
+    elif choix == "59":
+        exercice59()
     else:
         print("Exercice non reconnu.")
 
