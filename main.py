@@ -502,6 +502,7 @@ def exercice54():
 def exercice55():
     n = int(input("Veuillez entrer un nombre : "))
     list = []
+    list.append(n)
     res = 0
     for i in range(1, n+1):
         list.append(n*(n-1))
@@ -510,7 +511,17 @@ def exercice55():
         res += j
     print(res)
 
-
+# Niveau Basique 56
+def exercice56():
+    n = int(input("Veuillez saisir un nombre : "))
+    r = int(input("Veuillez saisir la raison : "))
+    t = int(input("Veuillez saisir combien de termes voulez vous : "))
+    list = []
+    list.append(n)
+    for i in range(1, t):
+        n += r
+        list.append(n)
+    print(list)
 
 
 
@@ -631,6 +642,8 @@ def main():
         exercice54()
     elif choix == "55":
         exercice55()
+    elif choix == "56":
+        exercice56()
     else:
         print("Exercice non reconnu.")
 
