@@ -548,7 +548,18 @@ def exercice57():
 
     print(vcomp, mot_long)
 
-
+# Niveau Basique 58
+def exercice58():
+    nb = int(input("Veuillez donner un nombre : "))
+    nb_arm = 0
+    for c in str(nb):
+        c = int(c) ** 3
+        nb_arm += c
+    if nb_arm == nb:
+        print("Nombre Armstrong")
+    else:
+        print("Nombre non Armstrong")
+        
 
 
 
@@ -672,6 +683,8 @@ def main():
         exercice56()
     elif choix == "57":
         exercice57()
+    elif choix == "58":
+        exercice58()
     else:
         print("Exercice non reconnu.")
 
