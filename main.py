@@ -498,8 +498,17 @@ def exercice54():
     de2 = randint(1, 6)
     print(de1 + de2)
 
-
-
+# Niveau Basique 55
+def exercice55():
+    n = int(input("Veuillez entrer un nombre : "))
+    list = []
+    res = 0
+    for i in range(1, n+1):
+        list.append(n*(n-1))
+        n -= 1
+    for j in list:
+        res += j
+    print(res)
 
 
 
@@ -620,6 +629,8 @@ def main():
         exercice53()
     elif choix == "54":
         exercice54()
+    elif choix == "55":
+        exercice55()
     else:
         print("Exercice non reconnu.")
 
