@@ -439,10 +439,13 @@ def exercice49():
 # Niveau Basique 50
 def exercice50():
     N = int(input("Veuillez entrez un nombre : "))
+    a, b = 0, 1
     list = []
-    for i in range(1, N):
-        list.append(abs((i-1) + (i-2)) )   
+    for i in range(0, N):
+        list.append(a)
+        a, b = b, a + b
     print(list)
+
 
 # Niveau Basique 51
 def exercice51():
@@ -455,7 +458,30 @@ def exercice51():
         list = list2
         print(list2)
 
-
+# Niveau Basique 52
+def exercice52(carre):
+    cible = sum(carre[0])
+    
+    for ligne in carre:
+        if sum(ligne) != cible:
+            return False
+    
+    for j in range(3):
+        if carre[0][j] + carre[1][j] + carre[2][j] != cible:
+            return False
+    
+    if carre[0][0] + carre[1][1] + carre[2][2] != cible:
+        return False
+    if carre[0][2] + carre[1][1] + carre[2][0] != cible:
+        return False
+    
+    return True
+        
+carre1 = [
+    [2, 7, 6],
+    [9, 5, 1],
+    [4, 3, 8]
+]
 
 
 def main():
@@ -562,6 +588,8 @@ def main():
         exercice50()
     elif choix == "51":
         exercice51()
+    elif choix == "52":
+        exercice52(carre1)
     else:
         print("Exercice non reconnu.")
 
