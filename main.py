@@ -492,6 +492,11 @@ def exercice53():
         N = N // 2
     print(resultat)
 
+# Niveau Basique 54
+def exercice54():
+    de1 = randint(1, 6)
+    de2 = randint(1, 6)
+    print(de1 + de2)
 
 
 
@@ -613,6 +618,8 @@ def main():
         exercice52(carre1)
     elif choix == "53":
         exercice53()
+    elif choix == "54":
+        exercice54()
     else:
         print("Exercice non reconnu.")
 
