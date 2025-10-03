@@ -436,7 +436,13 @@ def exercice49():
     else:
         print("Le nombre n'est pas premier")
 
-
+# Niveau Basique 50
+def exercice50():
+    N = int(input("Veuillez entrez un nombre : "))
+    list = []
+    for i in range(1, N):
+        list.append(abs((i-1) + (i-2)) )   
+    print(list)
 
 
 
@@ -542,6 +548,8 @@ def main():
         exercice48()
     elif choix == "49":
         exercice49()
+    elif choix == "50":
+        exercice50()
     else:
         print("Exercice non reconnu.")
 
