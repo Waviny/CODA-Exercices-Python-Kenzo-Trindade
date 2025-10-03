@@ -485,10 +485,12 @@ carre1 = [
 
 # Niveau Basique 53
 def exercice53():
+    resultat = ""
     N = int(input("veuillez entrer un nombre : "))
-    print(bin(N)[2:])
-
-
+    while N > 0:
+        resultat = resultat + str((N%2))
+        N = N // 2
+    print(resultat)
 
 
 
