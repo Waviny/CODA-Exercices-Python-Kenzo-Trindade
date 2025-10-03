@@ -444,6 +444,16 @@ def exercice50():
         list.append(abs((i-1) + (i-2)) )   
     print(list)
 
+# Niveau Basique 51
+def exercice51():
+    list = [1]
+    n = 3
+    for i in range(1, n+1):
+        list2 = list + [1]
+        for j in range(len(list) - 1):
+            list2[j+1] = list[j] + list2[j+1]
+        list = list2
+        print(list2)
 
 
 
@@ -550,6 +560,8 @@ def main():
         exercice49()
     elif choix == "50":
         exercice50()
+    elif choix == "51":
+        exercice51()
     else:
         print("Exercice non reconnu.")
 
