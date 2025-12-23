@@ -1,9 +1,3 @@
-C'est une excellente initiative. Pour qu'un projet scolaire ou d'entraînement attire l'œil d'un recruteur, le README ne doit pas seulement dire "voici mon code", mais plutôt "voici ce que j'ai appris et les compétences techniques que je maîtrise".
-
-Voici une proposition de README.md structuré, professionnel et esthétique. Il met en valeur la progression logique (de la découverte à l'algorithmique avancée) et l'architecture de ton script.
-
-Tu peux copier-coller le contenu ci-dessous directement dans ton fichier README.md.
-
 🐍 Python Algorithmic Journey
 60 Exercices progressifs : De la syntaxe de base à la logique algorithmique complexe.
 
@@ -101,3 +95,4 @@ Exercice 50 (Fibonacci) : Génération de la suite de Fibonacci jusqu'à N terme
 Exercice 52 (Carré Magique) : Algorithme vérifiant si une matrice 3x3 donnée est un carré magique (sommes des lignes, colonnes et diagonales identiques).
 
 Exercice 58 (Nombre d'Armstrong) : Vérification si un entier est égal à la somme de ses chiffres élevés à la puissance 3.
+
