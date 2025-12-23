@@ -59,30 +59,32 @@ Le projet est contenu dans un script principal modulaire. Chaque exercice est en
 Le point d'entrée est la fonction main(), qui agit comme un dispatcheur.
 
 Aperçu du fonctionnement :
+Python
 
-```def main():```
-```    choix = input("Entrez le numéro de l'exercice à exécuter : ")```
-```    # Le programme redirige vers la fonction correspondante```
-```    if choix == "1":```
-```        exercice1()```
-```    # ...```
-
-
+def main():
+    choix = input("Entrez le numéro de l'exercice à exécuter : ")
+    # Le programme redirige vers la fonction correspondante
+    if choix == "1":
+        exercice1()
+    # ...
 🚀 Comment utiliser ce projet
 Pour tester les exercices sur votre machine locale :
 
 Cloner le dépôt :
 
-```git clone https://github.com/votre-nom-utilisateur/nom-du-repo.git```
+Bash
 
+git clone https://github.com/votre-nom-utilisateur/nom-du-repo.git
 Accéder au dossier :
 
-```cd nom-du-repo```
+Bash
 
+cd nom-du-repo
 Lancer le script :
 
-```python main.py```
+Bash
 
+python main.py
 Interagir : Entrez simplement le numéro de l'exercice (de 1 à 60) lorsque l'invite de commande apparaît.
 
 🔍 Exemples d'Algorithmes Notables
@@ -93,5 +95,3 @@ Exercice 50 (Fibonacci) : Génération de la suite de Fibonacci jusqu'à N terme
 Exercice 52 (Carré Magique) : Algorithme vérifiant si une matrice 3x3 donnée est un carré magique (sommes des lignes, colonnes et diagonales identiques).
 
 Exercice 58 (Nombre d'Armstrong) : Vérification si un entier est égal à la somme de ses chiffres élevés à la puissance 3.
-
-
