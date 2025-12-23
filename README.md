@@ -1,133 +1,128 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
-# 🐍 Python Algorithmic Progression
+# 🐍 Python Algorithmic Journey
 
 ![Python](https://img.shields.io/badge/Language-Python_3-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![Exercises](https://img.shields.io/badge/Exercises-60-orange?style=for-the-badge)
 
-> **Un parcours progressif de 60 exercices : De la syntaxe élémentaire à la logique algorithmique complexe.**
+> **A progressive journey of 60 exercises: From basic syntax to complex algorithmic logic.**
 
 ---
 
-## 📋 Présentation
+## 📋 Overview
 
-Ce dépôt regroupe une collection structurée de scripts Python. L'objectif n'était pas seulement d'écrire du code, mais de construire une logique de programmation solide.
+This repository gathers a structured collection of Python scripts. The goal of this project was not only to write code but to build a solid **programming logic**.
 
-Le projet est conçu de manière **modulaire** : un script principal centralise l'exécution via un menu interactif, permettant de tester chaque concept indépendamment.
+The project is designed in a **modular** way: a main script centralizes execution via an interactive menu, allowing each concept to be tested independently.
 
-### 🛠️ Compétences démontrées
-* **Architecture logicielle :** Utilisation de fonctions et point d'entrée `if __name__ == "__main__":`.
-* **Manipulation de données :** Tableaux, chaînes de caractères, conversions de types.
-* **Logique algorithmique :** Tris, recherches, récursivité simulée, suites mathématiques.
-
----
-
-## 🗂️ Catalogue des Exercices
-
-Les exercices sont classés par niveau de complexité et par concepts techniques.
-
-### 🔹 Niveau 1 : Fondamentaux & Interactions
-<details>
-<summary>👀 <em>Voir le détail (Exercices 1 à 19)</em></summary>
-<br>
-
-| Ex. | Concept Clé | Description Rapide |
-|:---:|:---|:---|
-| **01-05** | E/S Standard | `print`, `input`, variables et concaténation. |
-| **06-11** | Arithmétique | Opérations de base (+, -, *, /, //, **). |
-| **12-14** | Boucles simples | Premières itérations `for` et répétitions. |
-| **15-16** | Géométrie | Calculs de périmètres et d'aires. |
-| **17-19** | Conversions | Devises, Temps (Minutes -> Secondes), TVA. |
-
-</details>
-
-### 🔹 Niveau 2 : Logique Conditionnelle
-<details>
-<summary>⚡ <em>Voir le détail (Exercices 20 à 29 & 38-40)</em></summary>
-<br>
-
-| Ex. | Concept Clé | Description Rapide |
-|:---:|:---|:---|
-| **20-23** | Conditions | Structures `if`, `elif`, `else`. Majorité, validation. |
-| **24-25** | Comparaisons | Comparaison de grandeurs et ordres (croissant). |
-| **26** | Modulo | Test de divisibilité par 5. |
-| **27-29** | Catégorisation | Classification par tranches (Âge, États de l'eau, Mentions Bac). |
-| **38** | Calculatrice | Menu de sélection d'opérations basiques. |
-| **40** | Sécurité | Vérification de longueur de mot de passe. |
-
-</details>
-
-### 🔹 Niveau 3 : Boucles Avancées & Itérations
-<details>
-<summary>🔄 <em>Voir le détail (Exercices 30 à 37 & 53, 60)</em></summary>
-<br>
-
-| Ex. | Concept Clé | Description Rapide |
-|:---:|:---|:---|
-| **30-32** | Cumuls | Somme d'entiers consécutifs (1 à N). |
-| **33** | Tables | Générateur de tables de multiplication. |
-| **35** | Math | Recherche de carrés parfaits inférieurs à N. |
-| **37** | Patterns | Algorithme de dessin (pyramide d'étoiles). |
-| **53** | Binaire | Conversion Décimal vers Binaire. |
-| **60** | Dessin | Génération de rectangles creux en console. |
-
-</details>
-
-### 🔹 Niveau 4 : Structures de Données (Listes)
-<details>
-<summary>📊 <em>Voir le détail (Exercices 41 à 49)</em></summary>
-<br>
-
-| Ex. | Concept Clé | Description Rapide |
-|:---:|:---|:---|
-| **41** | Moyenne | Calcul de moyenne sur une liste dynamique. |
-| **42** | Min/Max | Recherche de valeurs extrêmes sans fonctions natives. |
-| **43-44** | String Parsing | Comptage de voyelles, Inversion de chaînes. |
-| **46-47** | Recherche | Recherche linéaire d'un élément et comptage d'occurrences. |
-| **48-49** | Diviseurs | Liste des diviseurs et test de **Nombre Premier**. |
-
-</details>
-
-### 🔹 Niveau 5 : Algorithmique Avancée
-<details>
-<summary>🧠 <em>Voir le détail (Exercices 50 à 59)</em></summary>
-<br>
-
-C'est ici que se trouvent les défis logiques les plus intéressants.
-
-| Ex. | Nom de l'algorithme | Description |
-|:---:|:---|:---|
-| **50** | **Suite de Fibonacci** | Génération des N premiers termes (u_n = u_n-1 + u_n-2). |
-| **51** | **Triangle de Pascal** | Construction ligne par ligne basée sur la précédente. |
-| **52** | **Carré Magique** | Vérification matricielle (sommes lignes/colonnes/diagonales). |
-| **55** | **Suite Logique** | Calcul de sommes basées sur une formule `n*(n-1)`. |
-| **57** | **Le mot le plus long** | Algorithme de parcours de phrase et détection de longueur. |
-| **58** | **Nombre Armstrong** | Vérification mathématique (Somme des cubes des chiffres). |
-
-</details>
+### 🛠️ Key Skills
+* **Software Architecture:** Use of functions and the `if __name__ == "__main__":` entry point.
+* **Data Manipulation:** Arrays (Lists), strings, type conversions.
+* **Algorithmic Logic:** Sorting, searching, simulated recursion, and mathematical sequences.
 
 ---
 
-## 💻 Aperçu du Code
+## 🗂️ Exercise Catalog
 
-Le projet utilise un système de menu pour garder le code propre et navigable. Voici comment le programme principal orchestre les appels de fonctions :
+The exercises are categorized by complexity level and technical concepts.
+
+### 🔹 Level 1: Fundamentals & Interactions
+<details>
+<summary>👀 <em>View details (Exercises 1 to 19)</em></summary>
+<br>
+
+| Ex. | Key Concept | Quick Description |
+|:---:|:---|:---|
+| **01-05** | Standard I/O | `print`, `input`, variables, and string formatting. |
+| **06-11** | Arithmetic | Basic operations (+, -, *, /, //, **). |
+| **12-14** | Simple Loops | First `for` iterations and repetitions. |
+| **15-16** | Geometry | Perimeter and Area calculations. |
+| **17-19** | Conversions | Currency, Time (Minutes -> Seconds), VAT. |
+
+</details>
+
+### 🔹 Level 2: Conditional Logic
+<details>
+<summary>⚡ <em>View details (Exercises 20 to 29 & 38-40)</em></summary>
+<br>
+
+| Ex. | Key Concept | Quick Description |
+|:---:|:---|:---|
+| **20-23** | Conditions | `if`, `elif`, `else` structures. Validation and age checks. |
+| **24-25** | Comparisons | Comparing values and sorting orders (ascending). |
+| **26** | Modulo | Divisibility test (by 5). |
+| **27-29** | Categorization | Classification by ranges (Age, Water states, Grades). |
+| **38** | Calculator | Basic operations selection menu. |
+| **40** | Security | Password length verification. |
+
+</details>
+
+### 🔹 Level 3: Advanced Loops & Iterations
+<details>
+<summary>🔄 <em>View details (Exercises 30 to 37 & 53, 60)</em></summary>
+<br>
+
+| Ex. | Key Concept | Quick Description |
+|:---:|:---|:---|
+| **30-32** | Accumulators | Sum of consecutive integers (1 to N). |
+| **33** | Tables | Multiplication table generator. |
+| **35** | Math | Finding perfect squares smaller than N. |
+| **37** | Patterns | Drawing algorithm (star pyramid). |
+| **53** | Binary | Decimal to Binary conversion. |
+| **60** | Drawing | Generating hollow rectangles in the console. |
+
+</details>
+
+### 🔹 Level 4: Data Structures (Lists)
+<details>
+<summary>📊 <em>View details (Exercises 41 to 49)</em></summary>
+<br>
+
+| Ex. | Key Concept | Quick Description |
+|:---:|:---|:---|
+| **41** | Average | Calculating the average of a dynamic list. |
+| **42** | Min/Max | Finding extreme values without native functions. |
+| **43-44** | String Parsing | Counting vowels, Reversing strings. |
+| **46-47** | Search | Linear search for an element and counting occurrences. |
+| **48-49** | Divisors | List of divisors and **Prime Number** check. |
+
+</details>
+
+### 🔹 Level 5: Advanced Algorithms
+<details>
+<summary>🧠 <em>View details (Exercises 50 to 59)</em></summary>
+<br>
+
+This section contains the most interesting logical challenges.
+
+| Ex. | Algorithm Name | Description |
+|:---:|:---|:---|
+| **50** | **Fibonacci Sequence** | Generating the first N terms (u_n = u_n-1 + u_n-2). |
+| **51** | **Pascal's Triangle** | Line-by-line construction based on the previous one. |
+| **52** | **Magic Square** | Matrix verification (rows/columns/diagonals sums). |
+| **55** | **Logical Sequence** | Calculating sums based on the formula `n*(n-1)`. |
+| **57** | **Longest Word** | Sentence parsing algorithm to find the longest string. |
+| **58** | **Armstrong Number** | Mathematical check (Sum of cubes of digits). |
+
+</details>
+
+---
+
+## 💻 Code Overview
+
+The project uses a menu system to keep the code clean and navigable. Here is how the main program orchestrates function calls:
 
 ```python
 def main():
-    choix = input("Entrez le numéro de l'exercice à exécuter : ")
+    choix = input("Enter the exercise number to run: ")
     
-    # Dispatching dynamique
+    # Dynamic Dispatching
     if choix == "50":
         exercice50() # Fibonacci
     elif choix == "52":
-        exercice52(carre1) # Carré Magique
-    # ... gestion des autres cas
+        exercice52(carre1) # Magic Square
+    # ... handling other cases
     else:
-        print("Exercice non reconnu.")
+        print("Exercise not recognized.")
 
 if __name__ == "__main__":  
     main()
