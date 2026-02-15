@@ -1,128 +1,60 @@
-# 🐍 Python Algorithmic Journey
+<div align="center">
 
-![Python](https://img.shields.io/badge/Language-Python_3-blue?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Exercises](https://img.shields.io/badge/Exercises-60-orange?style=for-the-badge)
+# 🚀 Python Manipulation
 
-> **A progressive journey of 60 exercises: From basic syntax to complex algorithmic logic.**
+![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scripting](https://img.shields.io/badge/Type-Scripting-yellow?style=for-the-badge)
+![School](https://img.shields.io/badge/School-Coda-blue?style=for-the-badge)
 
----
+<p>
+  <strong>A deep dive into Python's flexibility and data handling.</strong><br>
+  Exploration of scripting, data structures, and efficient Pythonic logic.
+</p>
 
-## 📋 Overview
-
-This repository gathers a structured collection of Python scripts. The goal of this project was not only to write code but to build a solid **programming logic**.
-
-The project is designed in a **modular** way: a main script centralizes execution via an interactive menu, allowing each concept to be tested independently.
-
-### 🛠️ Key Skills
-* **Software Architecture:** Use of functions and the `if __name__ == "__main__":` entry point.
-* **Data Manipulation:** Arrays (Lists), strings, type conversions.
-* **Algorithmic Logic:** Sorting, searching, simulated recursion, and mathematical sequences.
+</div>
 
 ---
 
-## 🗂️ Exercise Catalog
+## 📋 About The Project
 
-The exercises are categorized by complexity level and technical concepts.
+This repository hosts my work on **Python programming** as part of the **Coda** curriculum. This project focuses on mastering Python's syntax and its powerful ability to manipulate different types of data with ease and efficiency.
 
-### 🔹 Level 1: Fundamentals & Interactions
-<details>
-<summary>👀 <em>View details (Exercises 1 to 19)</em></summary>
-<br>
+The main objective was to write clean, readable, and "Pythonic" code while solving logical problems and automating data-related tasks.
 
-| Ex. | Key Concept | Quick Description |
-|:---:|:---|:---|
-| **01-05** | Standard I/O | `print`, `input`, variables, and string formatting. |
-| **06-11** | Arithmetic | Basic operations (+, -, *, /, //, **). |
-| **12-14** | Simple Loops | First `for` iterations and repetitions. |
-| **15-16** | Geometry | Perimeter and Area calculations. |
-| **17-19** | Conversions | Currency, Time (Minutes -> Seconds), VAT. |
-
-</details>
-
-### 🔹 Level 2: Conditional Logic
-<details>
-<summary>⚡ <em>View details (Exercises 20 to 29 & 38-40)</em></summary>
-<br>
-
-| Ex. | Key Concept | Quick Description |
-|:---:|:---|:---|
-| **20-23** | Conditions | `if`, `elif`, `else` structures. Validation and age checks. |
-| **24-25** | Comparisons | Comparing values and sorting orders (ascending). |
-| **26** | Modulo | Divisibility test (by 5). |
-| **27-29** | Categorization | Classification by ranges (Age, Water states, Grades). |
-| **38** | Calculator | Basic operations selection menu. |
-| **40** | Security | Password length verification. |
-
-</details>
-
-### 🔹 Level 3: Advanced Loops & Iterations
-<details>
-<summary>🔄 <em>View details (Exercises 30 to 37 & 53, 60)</em></summary>
-<br>
-
-| Ex. | Key Concept | Quick Description |
-|:---:|:---|:---|
-| **30-32** | Accumulators | Sum of consecutive integers (1 to N). |
-| **33** | Tables | Multiplication table generator. |
-| **35** | Math | Finding perfect squares smaller than N. |
-| **37** | Patterns | Drawing algorithm (star pyramid). |
-| **53** | Binary | Decimal to Binary conversion. |
-| **60** | Drawing | Generating hollow rectangles in the console. |
-
-</details>
-
-### 🔹 Level 4: Data Structures (Lists)
-<details>
-<summary>📊 <em>View details (Exercises 41 to 49)</em></summary>
-<br>
-
-| Ex. | Key Concept | Quick Description |
-|:---:|:---|:---|
-| **41** | Average | Calculating the average of a dynamic list. |
-| **42** | Min/Max | Finding extreme values without native functions. |
-| **43-44** | String Parsing | Counting vowels, Reversing strings. |
-| **46-47** | Search | Linear search for an element and counting occurrences. |
-| **48-49** | Divisors | List of divisors and **Prime Number** check. |
-
-</details>
-
-### 🔹 Level 5: Advanced Algorithms
-<details>
-<summary>🧠 <em>View details (Exercises 50 to 59)</em></summary>
-<br>
-
-This section contains the most interesting logical challenges.
-
-| Ex. | Algorithm Name | Description |
-|:---:|:---|:---|
-| **50** | **Fibonacci Sequence** | Generating the first N terms (u_n = u_n-1 + u_n-2). |
-| **51** | **Pascal's Triangle** | Line-by-line construction based on the previous one. |
-| **52** | **Magic Square** | Matrix verification (rows/columns/diagonals sums). |
-| **55** | **Logical Sequence** | Calculating sums based on the formula `n*(n-1)`. |
-| **57** | **Longest Word** | Sentence parsing algorithm to find the longest string. |
-| **58** | **Armstrong Number** | Mathematical check (Sum of cubes of digits). |
-
-</details>
+> **Specific Goal:** Mastering data structures (lists, dictionaries, tuples) and implementing logic to process and transform information effectively.
 
 ---
 
-## 💻 Code Overview
+## ⚙️ Key Concepts Mastered
 
-The project uses a menu system to keep the code clean and navigable. Here is how the main program orchestrates function calls:
+Working with Python allows for rapid development while requiring a good understanding of its internal mechanics. This project demonstrates my understanding of:
 
-```python
-def main():
-    choix = input("Enter the exercise number to run: ")
-    
-    # Dynamic Dispatching
-    if choix == "50":
-        exercice50() # Fibonacci
-    elif choix == "52":
-        exercice52(carre1) # Magic Square
-    # ... handling other cases
-    else:
-        print("Exercise not recognized.")
+* **🐍 Pythonic Logic:** Writing concise and readable code using list comprehensions and built-in functions.
+* **📊 Data Structures:** Advanced manipulation of lists, dictionaries, sets, and tuples to store and retrieve data.
+* **📂 File I/O & Parsing:** Reading from and writing to files, and managing data persistence.
+* **🛠️ Scripting Automation:** Creating reusable scripts to automate repetitive tasks and data processing.
 
-if __name__ == "__main__":  
-    main()
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Usage |
+| :--- | :--- |
+| **Python 3.x** | Core logic and implementation. |
+| **Pip** | Package management and environment control. |
+| **VS Code / PyCharm** | IDE used for development and debugging. |
+| **Standard Library** | Use of modules like `os`, `sys`, or `json` for enhanced functionality. |
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/kenzotrindade/Python-Manipulation.git](https://github.com/kenzotrindade/Python-Manipulation.git)
+2. Navigate to the folder:
+   ```bash
+   cd Python-Manipulation
+3. Run the scripts:
+   ```bash
+   python main.py
