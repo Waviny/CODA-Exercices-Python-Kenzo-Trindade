@@ -51,10 +51,11 @@ Working with Python allows for rapid development while requiring a good understa
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kenzotrindade/Python-Manipulation.git](https://github.com/kenzotrindade/Python-Manipulation.git)
+   git clone https://github.com/kenzotrindade/Python-Manipulation.git
 2. Navigate to the folder:
    ```bash
    cd Python-Manipulation
 3. Run the scripts:
    ```bash
    python main.py
+
